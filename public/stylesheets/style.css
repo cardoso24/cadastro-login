@@ -1,0 +1,107 @@
+body {
+ padding: 0;
+ margin: 0;
+ background-color: black;
+}
+ 
+
+a {
+  font-style: none;
+  color: white;
+}
+html {
+  height: 100%;
+  margin: 0;
+  }
+ 
+  .container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    flex-grow: 1;
+    
+       
+}
+
+.etiqueta{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 5 px;
+  border: yellow 1px solid;
+  width: 285px;
+  color: white;
+  top: -145px;
+
+}
+.etiqueta:hover{
+  background-color: yellow;
+  color:black;
+  font-weight: bolder;
+}
+.price{
+  color: white;
+  margin-left: 325px;
+  font-weight: bolder;
+}
+
+.dscrp{
+  border: none;
+
+}
+.dscrp:hover{
+  border: none;
+  background-color: black;
+  color: white;
+
+}
+.vermais{
+ left:1050px;
+ top:-173px;
+
+}
+.banner-area{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top:-142px;
+}
+.banner img{
+width: 100%;
+
+}
+
+.flex{
+  border: rgb(217, 255, 0) solid 1px;
+  margin:20px;
+  width: 50%;
+  height: fit-content;
+  padding: 5px;
+} 
+.flex img{
+  height: 350px;
+}
+
+.flex h1{
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+ .produtos{
+   display: flex;
+   justify-content: center;
+   font-size: 80px;
+   position: relative;
+   top:-140px;
+ }
+  
+  .github{
+  width: 25px;
+  height: 25px;
+  margin-left:10px;
+  }
+  .footer{
+    margin-top: 490px;
+        }
